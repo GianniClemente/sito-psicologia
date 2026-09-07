@@ -1,1 +1,33 @@
-
+---
+import '../styles/global.css';
+const { title = 'Dott.ssa Nome Cognome | Psicologa', description = 'Sito professionale di psicologia.' } = Astro.props;
+---
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="brand" href="#home">Dott.ssa Nome Cognome</a>
+        <nav aria-label="Navigazione principale">
+          <a href="#home">Home</a>
+          <a href="#chi-sono">Chi sono</a>
+          <a href="#ambiti">Ambiti di intervento</a>
+          <a href="#tematiche">Tematiche</a>
+          <a href="#contatti">Contatti</a>
+        </nav>
+      </div>
+    </header>
+    <main><slot /></main>
+    <footer>
+      <div class="container">
+        © {new Date().getFullYear()} Dott.ssa Nome Cognome · Psicologa · P.IVA XXXXXXXX
+      </div>
+    </footer>
+  </body>
+</html>
