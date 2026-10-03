@@ -76,3 +76,11 @@ footer { padding:2.5rem 0 4rem; color:var(--muted); font-size:.9rem; }
   nav { gap:.75rem 1rem; }
   .article-hero { padding-top:3.5rem; }
 }
+
+.article-shell table { width:100%; border-collapse:collapse; margin:1.5rem 0 2rem; background:var(--surface); }
+.article-shell th, .article-shell td { padding:.8rem .9rem; border:1px solid var(--line); text-align:left; vertical-align:top; }
+.article-shell th { font-weight:700; }
+@media (max-width:760px) {
+  .article-shell { overflow-wrap:anywhere; }
+  .article-shell table { display:block; overflow-x:auto; }
+}
