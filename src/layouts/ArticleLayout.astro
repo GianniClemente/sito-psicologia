@@ -1,0 +1,37 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const {
+  title,
+  description,
+  canonical,
+  eyebrow = 'Ansia',
+  h1,
+  published = '3 ottobre 2026',
+  modified = '3 ottobre 2026',
+  noindex = true
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonical={canonical}
+  noindex={noindex}
+  ogType="article"
+>
+  <section class="article-hero">
+    <div class="container">
+      <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Home</a> · <a href="/ansia/">Ansia</a>
+      </div>
+      <div class="eyebrow">{eyebrow}</div>
+      <h1>{h1}</h1>
+      <p class="article-meta">Pubblicato: {published} · Aggiornato: {modified}</p>
+    </div>
+  </section>
+
+  <article class="article-shell">
+    <slot />
+  </article>
+</BaseLayout>
