@@ -21,4 +21,4 @@ Sostituisci i testi segnaposto in:
 - `src/layouts/BaseLayout.astro`
 
 Le sezioni principali sono:
-Home · Chi sono · Ambiti di intervento · Tematiche · Contatti
+Home · Chi sono · Ambiti di intervento · Tematiche · Contatti 
