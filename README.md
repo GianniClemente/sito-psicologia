@@ -13,7 +13,7 @@ npm run dev
 npm run build
 ```
 
-La cartella generata è `dist/`.
+La cartella generata è `dist/`. 
 
 ## Personalizzazione
 Sostituisci i testi segnaposto in:
