@@ -3,8 +3,13 @@ import '../styles/global.css';
 
 const {
   title = 'Dott. Gianni Clemente | Psicologo',
-  description = 'Pagina personale del Dott. Gianni Clemente, psicologo.'
+  description = 'Pagina personale del Dott. Gianni Clemente, psicologo.',
+  canonical,
+  noindex = false,
+  ogType = 'website'
 } = Astro.props;
+
+const canonicalUrl = canonical ? new URL(canonical, Astro.url.origin).href : undefined;
 ---
 
 <!doctype html>
@@ -13,20 +18,30 @@ const {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+
     <title>{title}</title>
   </head>
 
   <body>
     <header>
       <div class="container nav">
-        <a class="brand" href="#home">Dott. Gianni Clemente</a>
+        <a class="brand" href="/">Dott. Gianni Clemente</a>
 
         <nav aria-label="Navigazione principale">
-          <a href="#home">Home</a>
-          <a href="#chi-sono">Chi sono</a>
-          <a href="#tematiche">Tematiche</a>
-          <a href="#libri">I miei libri</a>
-          <a href="#contatti">Contatti</a>
+          <a href="/#home">Home</a>
+          <a href="/#chi-sono">Chi sono</a>
+          <a href="/ansia/">Ansia</a>
+          <a href="/#tematiche">Tematiche</a>
+          <a href="/#libri">I miei libri</a>
+          <a href="/#contatti">Contatti</a>
         </nav>
       </div>
     </header>
