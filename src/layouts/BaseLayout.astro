@@ -9,7 +9,8 @@ const {
   ogType = 'website'
 } = Astro.props;
 
-const canonicalUrl = canonical ? new URL(canonical, Astro.url.origin).href : undefined;
+const canonicalUrl = canonical || undefined;
+const absoluteCanonical = canonicalUrl && /^https?:\/\//.test(canonicalUrl) ? canonicalUrl : undefined;
 ---
 
 <!doctype html>
@@ -25,7 +26,7 @@ const canonicalUrl = canonical ? new URL(canonical, Astro.url.origin).href : und
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+    {absoluteCanonical && <meta property="og:url" content={absoluteCanonical} />}
 
     <title>{title}</title>
   </head>
