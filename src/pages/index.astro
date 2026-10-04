@@ -7,7 +7,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="Pagina personale del Dott. Gianni Clemente, psicologo. Ricerca in ambito psicoanalitico, interessi sui rapporti tra psicologia, religione, psicoanalisi e genetica."
 >
   <section id="home" class="hero">
-    <div class="container hub-intro" id="chi-sono">
+    <div class="container" id="chi-sono">
       <div class="eyebrow">Chi sono</div>
       <h1>Dott. Gianni Clemente, psicologo.</h1>
 
@@ -26,12 +26,86 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </section>
 
+  <section id="libri">
+    <div class="container">
+      <div class="eyebrow">I miei libri</div>
+      <h2>Pubblicazioni.</h2>
+
+      <div class="grid-3">
+        <article class="card book-card">
+          <h3>Il richiamo del nulla</h3>
+          <p><strong>Tema: pulsione di morte</strong></p>
+          <p>
+            Appunti di psicoanalisi dedicati al tema della pulsione di morte.
+          </p>
+          <a
+            class="text-link"
+            href="https://www.amazon.it/richiamo-nulla-Appunti-psicoanalisi-pulsione/dp/B0G1VQ995B/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vedi il libro su Amazon
+          </a>
+        </article>
+
+        <article class="card book-card">
+          <h3>Psicologia e Cammini</h3>
+          <p><strong>Tema: pellegrinaggi e cammini sacri</strong></p>
+          <p>
+            Un approfondimento sul significato psicologico dei cammini e delle esperienze di pellegrinaggio.
+          </p>
+          <a
+            class="text-link"
+            href="https://www.amazon.it/Psicologia-Cammini-Gianni-Francesco-Clemente-ebook/dp/B07B36X68V"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vedi il libro su Amazon
+          </a>
+        </article>
+
+        <article class="card book-card">
+          <h3>Il potere rigenerante del Cammino di Santiago</h3>
+          <p><strong>Tema: il Cammino di Santiago</strong></p>
+          <p>
+            Una riflessione sul valore trasformativo e rigenerante dell’esperienza del Cammino di Santiago.
+          </p>
+          <a
+            class="text-link"
+            href="https://www.amazon.it/potere-rigenerante-del-Cammino-Santiago-ebook/dp/B07B2YBNPB"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vedi il libro su Amazon
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section id="tematiche">
     <div class="container">
       <div class="eyebrow">Tematiche</div>
       <h2>Argomenti e approfondimenti.</h2>
 
       <div class="grid-3">
+        <article class="card">
+          <h3>Ansia</h3>
+          <p>
+            Approfondimenti divulgativi sulle principali manifestazioni dell’ansia,
+            sui sintomi e sulle diverse forme in cui può presentarsi.
+          </p>
+          <ul class="topic-links">
+            <li><a href="/ansia/">Ansia: sintomi, cause e come affrontarla</a></li>
+            <li><a href="/ansia/sintomi/">Sintomi dell’ansia</a></li>
+            <li><a href="/ansia/sintomi-fisici/">Ansia e sintomi fisici</a></li>
+            <li><a href="/ansia/ansia-sociale/">Ansia sociale</a></li>
+            <li><a href="/ansia/ansia-generalizzata/">Ansia generalizzata</a></li>
+            <li><a href="/ansia/ansia-da-prestazione/">Ansia da prestazione</a></li>
+            <li><a href="/ansia/attacchi-di-panico/">Attacchi di panico</a></li>
+          </ul>
+        </article>
+
         <article class="card">
           <h3>Psicoanalisi</h3>
           <p>
@@ -45,50 +119,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <p>
             Riflessioni e approfondimenti sui rapporti tra fattori biologici,
             caratteristiche individuali, ambiente e sviluppo psicologico.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Psicologia</h3>
-          <p>
-            Contenuti divulgativi e approfondimenti su temi psicologici di interesse
-            scientifico e culturale.
-          </p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="libri">
-    <div class="container">
-      <div class="eyebrow">I miei libri</div>
-      <h2>Pubblicazioni.</h2>
-      <p class="lead">
-        In questa sezione raccoglierò i miei libri e le pubblicazioni, con una breve
-        presentazione dei contenuti e i relativi riferimenti.
-      </p>
-
-      <div class="grid-3">
-        <article class="card">
-          <h3>Titolo del libro</h3>
-          <p>
-            Breve descrizione del volume. Potremo aggiungere copertina, anno di
-            pubblicazione, editore e collegamento alla scheda del libro.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Titolo del libro</h3>
-          <p>
-            Spazio predisposto per una seconda pubblicazione o per un futuro volume.
-          </p>
-        </article>
-
-        <article class="card">
-          <h3>Altre pubblicazioni</h3>
-          <p>
-            Qui potremo raccogliere articoli, contributi, materiali o altri lavori
-            di interesse.
           </p>
         </article>
       </div>

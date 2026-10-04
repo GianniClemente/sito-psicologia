@@ -84,3 +84,9 @@ footer { padding:2.5rem 0 4rem; color:var(--muted); font-size:.9rem; }
   .article-shell { overflow-wrap:anywhere; }
   .article-shell table { display:block; overflow-x:auto; }
 }
+
+.book-card { display:flex; flex-direction:column; }
+.book-card .text-link { margin-top:auto; padding-top:1rem; font-weight:650; text-decoration:underline; text-underline-offset:.16em; }
+.topic-links { margin:1rem 0 0; padding-left:1.2rem; }
+.topic-links li { margin:.45rem 0; }
+.topic-links a { text-decoration:underline; text-underline-offset:.16em; }
