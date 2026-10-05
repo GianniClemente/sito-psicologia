@@ -90,3 +90,6 @@ footer { padding:2.5rem 0 4rem; color:var(--muted); font-size:.9rem; }
 .topic-links { margin:1rem 0 0; padding-left:1.2rem; }
 .topic-links li { margin:.45rem 0; }
 .topic-links a { text-decoration:underline; text-underline-offset:.16em; }
+
+.intro-wide h1 { max-width:none; }
+.intro-wide .lead { max-width:none; }
