@@ -4,7 +4,7 @@ title: "Ansia sociale: sintomi, cause e come affrontarla | Dott. Gianni Clemente
 description: "Che cos’è l’ansia sociale, quali sintomi può provocare, come si distingue dalla timidezza, quali fattori possono mantenerla e come può essere affrontata in psicoterapia."
 canonical: "/ansia/ansia-sociale/"
 h1: "Ansia sociale: sintomi, cause e come affrontarla"
-noindex: true
+noindex: false
 published: "3 ottobre 2026"
 modified: "4 ottobre 2026"
 ---
