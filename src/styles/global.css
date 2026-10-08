@@ -93,3 +93,9 @@ footer { padding:2.5rem 0 4rem; color:var(--muted); font-size:.9rem; }
 
 .intro-wide h1 { max-width:none; }
 .intro-wide .lead { max-width:none; }
+
+.footer-inner { display:flex; justify-content:space-between; gap:1rem; align-items:center; flex-wrap:wrap; }
+.footer-links { display:flex; gap:1rem; flex-wrap:wrap; }
+.footer-links a { text-decoration:underline; text-underline-offset:.16em; }
+.legal-hero h1 { max-width:none; }
+.legal-page h2 { margin-top:2.4rem; }
