@@ -9,8 +9,8 @@ const {
   ogType = 'website'
 } = Astro.props;
 
-const canonicalUrl = canonical || undefined;
-const absoluteCanonical = canonicalUrl && /^https?:\/\//.test(canonicalUrl) ? canonicalUrl : undefined;
+const siteOrigin = Astro.site ?? new URL('https://dottclemente.it');
+const canonicalUrl = new URL(canonical ?? Astro.url.pathname, siteOrigin).toString();
 ---
 
 <!doctype html>
@@ -20,13 +20,13 @@ const absoluteCanonical = canonicalUrl && /^https?:\/\//.test(canonicalUrl) ? ca
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     {noindex && <meta name="robots" content="noindex, follow" />}
-    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <link rel="canonical" href={canonicalUrl} />
 
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    {absoluteCanonical && <meta property="og:url" content={absoluteCanonical} />}
+    <meta property="og:url" content={canonicalUrl} />
 
     <title>{title}</title>
   </head>
@@ -51,8 +51,13 @@ const absoluteCanonical = canonicalUrl && /^https?:\/\//.test(canonicalUrl) ? ca
     </main>
 
     <footer>
-      <div class="container">
-        © {new Date().getFullYear()} Dott. Gianni Clemente · Psicologo
+      <div class="container footer-inner">
+        <div>© {new Date().getFullYear()} Dott. Gianni Clemente · Psicologo</div>
+        <nav class="footer-links" aria-label="Informazioni legali">
+          <a href="/privacy/">Privacy</a>
+          <a href="/cookie-policy/">Cookie</a>
+          <a href="/disclaimer/">Disclaimer</a>
+        </nav>
       </div>
     </footer>
   </body>
