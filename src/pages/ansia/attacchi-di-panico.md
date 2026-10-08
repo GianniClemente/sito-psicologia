@@ -4,7 +4,7 @@ title: "Attacchi di panico: sintomi, durata, cause e cosa fare | Dott. Gianni Cl
 description: "Che cos’è un attacco di panico, quali sintomi può provocare, quanto può durare, cosa fare durante e dopo l’episodio e quale differenza c’è con il disturbo di panico."
 canonical: "/ansia/attacchi-di-panico/"
 h1: "Attacchi di panico: sintomi, durata, cause e cosa fare"
-noindex: true
+noindex: false
 published: "3 ottobre 2026"
 modified: "4 ottobre 2026"
 ---

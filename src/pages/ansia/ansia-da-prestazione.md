@@ -4,7 +4,7 @@ title: "Ansia da prestazione: cos’è, sintomi e come affrontarla | Dott. Giann
 description: "Che cos’è l’ansia da prestazione, quali sintomi può provocare, da cosa può dipendere e come può essere affrontata in ambito scolastico, lavorativo, sportivo e in altre situazioni."
 canonical: "/ansia/ansia-da-prestazione/"
 h1: "Ansia da prestazione: cos’è, sintomi e come affrontarla"
-noindex: true
+noindex: false
 published: "3 ottobre 2026"
 modified: "3 ottobre 2026"
 ---

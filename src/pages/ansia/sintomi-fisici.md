@@ -4,7 +4,7 @@ title: "Ansia e sintomi fisici: come si manifesta nel corpo | Dott. Gianni Cleme
 description: "Come l’ansia può manifestarsi nel corpo: palpitazioni, tachicardia, dolore al petto, respiro corto, nausea, vertigini, formicolii, tremori e tensione muscolare."
 canonical: "/ansia/sintomi-fisici/"
 h1: "Ansia e sintomi fisici: come si manifesta nel corpo"
-noindex: true
+noindex: false
 published: "3 ottobre 2026"
 modified: "3 ottobre 2026"
 ---

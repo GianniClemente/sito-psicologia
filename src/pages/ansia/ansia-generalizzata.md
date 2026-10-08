@@ -4,7 +4,7 @@ title: "Ansia generalizzata: sintomi, cause, durata e trattamento | Dott. Gianni
 description: "Che cos’è il disturbo d’ansia generalizzata, quali sintomi può provocare, quanto può durare, da cosa può dipendere e quali trattamenti hanno evidenze di efficacia."
 canonical: "/ansia/ansia-generalizzata/"
 h1: "Ansia generalizzata: sintomi, cause, durata e trattamento"
-noindex: true
+noindex: false
 published: "3 ottobre 2026"
 modified: "4 ottobre 2026"
 ---
