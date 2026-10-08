@@ -7,6 +7,34 @@ export function GET() {
     <loc>https://dottclemente.it/</loc>
     <lastmod>2026-10-08</lastmod>
   </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/sintomi/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/sintomi-fisici/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/ansia-sociale/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/ansia-generalizzata/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/ansia-da-prestazione/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/ansia/attacchi-di-panico/</loc>
+    <lastmod>2026-10-08</lastmod>
+  </url>
 </urlset>
 `;
 
