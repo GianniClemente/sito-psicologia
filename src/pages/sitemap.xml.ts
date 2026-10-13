@@ -5,7 +5,7 @@ export function GET() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dottclemente.it/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://dottclemente.it/ansia/</loc>
@@ -34,6 +34,38 @@ export function GET() {
   <url>
     <loc>https://dottclemente.it/ansia/attacchi-di-panico/</loc>
     <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/sintomi/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/test-depressione/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/depressione-maggiore/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/distimia/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/depressione-reattiva/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/depressione-post-partum/</loc>
+    <lastmod>2026-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/depressione/come-uscire-dalla-depressione/</loc>
+    <lastmod>2026-10-13</lastmod>
   </url>
 </urlset>
 `;
