@@ -67,6 +67,70 @@ export function GET() {
     <loc>https://dottclemente.it/depressione/come-uscire-dalla-depressione/</loc>
     <lastmod>2026-10-13</lastmod>
   </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/freud-1920/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/al-di-la-del-principio-di-piacere/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/eros-e-thanatos/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/coazione-a-ripetere/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/principio-di-nirvana/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/pulsione-di-morte-e-autodistruttivita/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/pulsione-di-morte-e-demonio/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/alfred-adler/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/carl-gustav-jung/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/otto-rank/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/sandor-ferenczi/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/melanie-klein/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/karen-horney/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/pulsione-di-morte/wilfred-bion/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
+    <loc>https://dottclemente.it/psicologia-e-genetica/estroversione-e-geni/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
 </urlset>
 `;
 
