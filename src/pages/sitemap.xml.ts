@@ -1,142 +1,18 @@
+// Mantiene compatibile /sitemap.xml, già registrata in Google Search Console.
+// L'integrazione ufficiale @astrojs/sitemap crea automaticamente
+// sitemap-index.xml e sitemap-0.xml durante ogni build Astro.
 export const prerender = true;
 
 export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://dottclemente.it/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/sintomi/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/sintomi-fisici/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/ansia-sociale/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/ansia-generalizzata/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/ansia-da-prestazione/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/ansia/attacchi-di-panico/</loc>
-    <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/sintomi/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/test-depressione/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/depressione-maggiore/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/distimia/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/depressione-reattiva/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/depressione-post-partum/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/depressione/come-uscire-dalla-depressione/</loc>
-    <lastmod>2026-10-13</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/freud-1920/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/al-di-la-del-principio-di-piacere/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/eros-e-thanatos/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/coazione-a-ripetere/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/principio-di-nirvana/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/pulsione-di-morte-e-autodistruttivita/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/pulsione-di-morte-e-demonio/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/alfred-adler/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/carl-gustav-jung/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/otto-rank/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/sandor-ferenczi/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/melanie-klein/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/karen-horney/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/pulsione-di-morte/wilfred-bion/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://dottclemente.it/psicologia-e-genetica/estroversione-e-geni/</loc>
-    <lastmod>2026-10-18</lastmod>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://dottclemente.it/sitemap-0.xml</loc>
+  </sitemap>
+</sitemapindex>
 `;
 
   return new Response(xml, {
-    headers: {
-      'Content-Type': 'application/xml; charset=utf-8'
-    }
+    headers: { 'Content-Type': 'application/xml; charset=utf-8' }
   });
 }
