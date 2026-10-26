@@ -64,6 +64,8 @@ La presenza di alcuni sintomi non basta per formulare una diagnosi. È important
 
 Per una spiegazione generale si può leggere la guida alla [depressione](/depressione/) e, per i segnali più frequenti, la pagina sui [sintomi della depressione](/depressione/sintomi/).
 
+Quando ansia e depressione si presentano insieme, è utile distinguere sintomi e caratteristiche di personalità: si veda [ansia e depressione, con un approfondimento sullo stile ansioso-evitante nel PDM-3](/ansia/ansia-e-depressione/).
+
 ## Che cosa significa depressione nevrotica?
 
 L'espressione *depressione nevrotica* appartiene soprattutto alla storia della psicopatologia. È stata impiegata per descrivere manifestazioni depressive interpretate in rapporto a conflitti nevrotici. Si incontra anche la formula *nevrosi depressiva*, mentre *depressione reattiva* ha avuto impieghi parzialmente differenti: questi termini non sono sinonimi rigorosi.
