@@ -201,6 +201,8 @@ In alcuni casi il medico o lo psichiatra può valutare anche un trattamento farm
 
 La scelta dell’intervento non può essere stabilita sulla sola base dell’evento che ha preceduto la sofferenza.
 
+La nozione storica di depressione nevrotica appartiene a un diverso piano teorico e non coincide con la depressione reattiva. Per comprendere questa distinzione: [nevrosi e depressione, differenze e relazione](/depressione/nevrosi-e-depressione/).
+
 Per un approfondimento sul trattamento: [come affrontare la depressione](/depressione/come-uscire-dalla-depressione/).
 
 ## Quando rivolgersi a uno specialista?
