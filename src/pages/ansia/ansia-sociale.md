@@ -336,6 +336,8 @@ Il NIMH suggerisce di ricercare un aiuto professionale quando l’ansia inizia a
 
 Lo scopo della valutazione non è applicare un’etichetta sulla base di un singolo comportamento, ma comprendere la natura del problema, il suo impatto e gli interventi eventualmente più appropriati.
 
+Per approfondire la differenza fra ansia sociale, caratteristiche evitanti di personalità e possibile presenza di sintomi depressivi: [ansia e depressione nella prospettiva del PDM-3](/ansia/ansia-e-depressione/).
+
 ## Domande frequenti sull’ansia sociale
 
 ### L’ansia sociale è la stessa cosa della timidezza?
